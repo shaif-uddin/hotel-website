@@ -16,10 +16,48 @@ a {
 h1,
 h2,
 h3 {
-  padding-bottom: 0.85em;
+  padding-bottom: 20px;
 }
 p {
   margin: 10px 0;
+}
+/* Utility Classes */
+.container {
+  max-width: 1130px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 10px;
+}
+.text-primary {
+  color: #f7c08a;
+}
+.lead {
+  font-size: 1.125em;
+}
+.btn {
+  color: #fff;
+  background: #333;
+  padding: 13px 20px;
+  display: inline-block;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  color: #333;
+  background: #f7c08a;
+}
+.btn-light {
+  background: #f4f4f4;
+  color: #333;
+}
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+.bg-primary {
+  background: #333;
+  color: #fff;
 }
 /* Navbar */
 #navbar {
@@ -32,7 +70,7 @@ p {
 }
 #navbar h1 {
   float: left;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 #navbar ul {
   float: right;
@@ -49,4 +87,39 @@ p {
 #navbar ul li a:hover {
   background: #444;
   color: #f7c08a;
+}
+/* Showcase Section */
+#showcase {
+  background: url(../img/showcase.jpg) no-repeat center center;
+  height: 600px;
+}
+#showcase .showcase-content {
+  color: #fff;
+  padding-top: 170px;
+  text-align: center;
+}
+#showcase .showcase-content h1 {
+  font-size: 3.75em;
+  line-height: 1.2em;
+}
+/* Home Info Section */
+#home-info {
+  height: 400px;
+}
+#home-info .info-img {
+  background: url(../img/photo-1.jpg) no-repeat;
+  width: 50%;
+  float: left;
+  min-height: 100%;
+}
+#home-info .info-content {
+  width: 50%;
+  float: right;
+  min-height: 100%;
+  padding: 3em 3em;
+  text-align: center;
+  overflow: hidden;
+}
+#home-info .info-content p {
+  padding-bottom: 20px;
 }
